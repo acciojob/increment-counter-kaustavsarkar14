@@ -1,7 +1,7 @@
 //your JS code here. If required.
 const btn = document.getElementById('incrementBtn')
-const c = document.getElementById('counter')
+const counter = document.getElementById('counter')
 btn.addEventListener('click',()=>{
-	alert(c.innerText)
-	c.innerText = Number(c.innerText)+1
+	alert(Number(counter.innerText))
+	counter.innerText = Number(counter.innerText)+1
 })
